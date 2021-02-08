@@ -38,7 +38,7 @@ defmodule GenRMQ.Mixfile do
   defp deps do
     [
       {:amqp, "~> 0.3.0"},
-      {:credo, "~> 0.8", only: :dev},
+      {:credo, "~> 1.5", only: :dev},
       {:excoveralls, "~> 0.7", only: :test},
       {:poison, "~> 3.1", only: :test},
       {:earmark, "~> 0.1", only: :dev},
